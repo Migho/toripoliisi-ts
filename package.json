@@ -1,0 +1,25 @@
+{
+  "name": "toripoliisi-ts",
+  "version": "1.0.0",
+  "description": "Tori.fi hakuvahti replacement, serving as a Telegram bot.",
+  "main": "src/index.ts",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "node-cron": "^3.0.2",
+    "node-telegram-bot-api": "^0.61.0",
+    "sequelize": "^6.32.1",
+    "sqlite3": "^5.1.6"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "start": "tsc && node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node-telegram-bot-api": "^0.61.7",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "^5.2.2"
+  }
+}
