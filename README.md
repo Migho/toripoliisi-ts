@@ -8,7 +8,7 @@ Originally this code was written with Deno, but then it got old and didn't launc
 
 This bot is written using Typescript. Run this command when developing:
 
-`yarn run dev`
+`npm run dev`
 
 In order for Bot to start successfully, you need .env file with telegram bot `TOKEN`.
 
